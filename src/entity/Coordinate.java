@@ -1,5 +1,7 @@
 package entity;
 
+//Author ÔÚÏß·è¿ñ
+//Homepage http://bookshadow.com
 public class Coordinate {
 	/*
 	 * O---------¡ú y 

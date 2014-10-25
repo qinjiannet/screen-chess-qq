@@ -7,6 +7,8 @@ import recognition.RecognitionHelper;
 import entity.chess.Chess;
 import entity.chess.ChessFactory;
 
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Move {
 	private Chess chess;
 	private Coordinate targetCoo;

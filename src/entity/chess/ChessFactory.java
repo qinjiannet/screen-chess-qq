@@ -1,5 +1,7 @@
 package entity.chess;
 
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class ChessFactory {
 	public static Chess newChess(char code) {
 		switch (code) {

@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 import entity.Board;
 import entity.Coordinate;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Knight extends Chess {
 	public final static int VALUE = 80;
 	private final static int deltaX[] = { 2, 2, 1, 1, -1, -1, -2, -2 };

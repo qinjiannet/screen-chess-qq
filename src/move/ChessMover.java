@@ -6,7 +6,8 @@ import java.awt.Robot;
 import java.awt.event.InputEvent;
 
 import entity.Move;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class ChessMover {
 
 	private Point start;

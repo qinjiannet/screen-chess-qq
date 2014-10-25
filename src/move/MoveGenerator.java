@@ -6,7 +6,8 @@ import entity.Board;
 import entity.Coordinate;
 import entity.Move;
 import entity.chess.Chess;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class MoveGenerator {
 	public MoveGenerator() {
 	}

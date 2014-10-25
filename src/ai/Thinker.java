@@ -10,7 +10,8 @@ import entity.Move;
 import entity.Pair;
 import entity.chess.Chess;
 import entity.chess.General;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Thinker {
 	
 	public final static int MAX_THOUGHT = 1000000;

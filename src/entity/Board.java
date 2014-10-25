@@ -2,6 +2,8 @@ package entity;
 
 import entity.chess.Chess;
 
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Board {
 
 	public static final char SELF = 's';

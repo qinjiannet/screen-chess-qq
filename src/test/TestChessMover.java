@@ -6,7 +6,8 @@ import java.awt.Point;
 import move.ChessMover;
 
 import org.junit.Test;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class TestChessMover {
 
 	@Test

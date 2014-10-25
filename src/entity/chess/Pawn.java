@@ -6,7 +6,8 @@ import java.util.ArrayList;
 
 import entity.Board;
 import entity.Coordinate;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Pawn extends Chess {
 	public final static int VALUE = 6;
 	private final static int deltaX[] = { -1, 1, 0, 0 };

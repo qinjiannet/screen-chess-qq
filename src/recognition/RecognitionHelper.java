@@ -10,7 +10,8 @@ import entity.Board;
 import entity.Coordinate;
 import entity.chess.Chess;
 import entity.chess.ChessFactory;
-
+//Author ÔÚÏß·è¿ñ
+//Homepage http://bookshadow.com
 public class RecognitionHelper {
 
 	public static final int gridSize = 48;

@@ -5,7 +5,8 @@ import java.util.ArrayList;
 
 import entity.Board;
 import entity.Coordinate;
-
+//Author ÔÚÏß·è¿ñ
+//Homepage http://bookshadow.com
 public abstract class Chess {
 	public static final char ROOK = 'R';
 	public static final char KNIGHT = 'K';
@@ -112,10 +113,6 @@ public abstract class Chess {
 		return (x >= 0 && x <= 9 && y >= 0 && y <= 8);
 	}
 
-	/*
-	 * public boolean isValidMove(Chess[][] board, Coordinate targetCoo) {
-	 * return isValid(targetCoo.getX(), targetCoo.getY()); }
-	 */
 	public abstract ArrayList<Coordinate> getPossibleLocations(Board chessBoard);
 	
 	public abstract int getValue(Board chessBoard);

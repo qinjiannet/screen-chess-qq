@@ -14,7 +14,8 @@ import ai.Thinker;
 import entity.Board;
 import entity.Move;
 import entity.chess.Chess;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Executor {
 
 	public static void main(String[] args) throws InterruptedException,

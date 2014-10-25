@@ -1,7 +1,8 @@
 package color;
 
 import java.util.HashSet;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class ColorHelper {
 
 	public static final int PATTERN_ARR[] = { -2569056, -2571120, -2571112,

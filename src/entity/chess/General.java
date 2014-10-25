@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 import entity.Board;
 import entity.Coordinate;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class General extends Chess {
 	public final static int VALUE = 100000;
 	private final static int deltaX[] = { 1, 0, -1, 0 };
@@ -43,17 +44,15 @@ public class General extends Chess {
 	
 	public Coordinate generalMeet(Chess board[][]) {
 		char color = getColor();
-		//System.out.println("color = " + color);
+		
 		Chess opponentGeneral = Board.findGeneral(board, Chess.oppositeColor(color));
 		if (opponentGeneral == null)
 			return null;
-		//System.out.println("opponent = " + opponentGeneral);
+		
 		int sy = getCoordinate().getY();
 		int oy = opponentGeneral.getCoordinate().getY();
 		if (sy == oy) {
-			//System.out.println("count " + chessBoard.countChess(getCoordinate(), opponentGeneral.getCoordinate()));
 			if (Board.countChess(board, getCoordinate(), opponentGeneral.getCoordinate()) == 2) {
-				//System.out.println("meet");
 				return opponentGeneral.getCoordinate();
 			}
 		}

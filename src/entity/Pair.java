@@ -1,5 +1,7 @@
 package entity;
 
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Pair<Key, Value> {
 	private Key key;
 	private Value value;

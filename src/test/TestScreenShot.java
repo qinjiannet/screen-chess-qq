@@ -9,7 +9,8 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 
 import org.junit.Test;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class TestScreenShot {
 
 	@Test

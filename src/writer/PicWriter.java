@@ -5,7 +5,8 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class PicWriter {
 	private BufferedImage bi;
 	private File file;

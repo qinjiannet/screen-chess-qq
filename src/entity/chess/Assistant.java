@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 import entity.Board;
 import entity.Coordinate;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Assistant extends Chess {
 	public final static int VALUE = 20;
 	private final static int deltaX[] = { 1, -1, 1, -1 };

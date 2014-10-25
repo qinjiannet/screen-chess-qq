@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 import entity.Board;
 import entity.Coordinate;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class Cannon extends Chess {
 	
 	public final static int VALUE = 90;
@@ -44,12 +45,6 @@ public class Cannon extends Chess {
 			}
 		}
 
-		/*
-		 * for (int i = 0; i <= 9; i++) { int x = i; if (i == sourceCoo.getX())
-		 * continue; int y = sourceCoo.getY(); Coordinate targetCoo = new
-		 * Coordinate(x,y); if (checkMove(board, targetCoo)) {
-		 * al.add(targetCoo); } }
-		 */
 		return al;
 	}
 	
@@ -62,16 +57,5 @@ public class Cannon extends Chess {
 			bonus += 3;
 		return VALUE + bonus;
 	}
-	/*
-	 * @Override public boolean isValidMove(Chess[][] board, Coordinate
-	 * targetCoo) { Coordinate sourceCoo = getCoordinate(); int sx =
-	 * sourceCoo.getX(); int sy = sourceCoo.getY(); int tx = targetCoo.getX();
-	 * int ty = targetCoo.getY(); int barrier = 0; int min, max; if (sx == tx) {
-	 * min = Math.min(sy, ty); max = Math.max(sy, ty); for (int y = min + 1; y <
-	 * max; y++) { if (board[sx][y] != null) barrier++; } } else { min =
-	 * Math.min(sx, tx); max = Math.max(sx, tx); for (int x = min + 1; x < max;
-	 * x++) { if (board[x][sy] != null) barrier++; } } if (board[tx][ty] ==
-	 * null) { return barrier == 0; } else { Chess targetChess = board[tx][ty];
-	 * return barrier == 1 && getColor() != targetChess.getColor(); } }
-	 */
+
 }

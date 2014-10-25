@@ -6,7 +6,8 @@ import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
-
+//Author 在线疯狂
+//Homepage http://bookshadow.com
 public class ScreenshotGetter {
 	public BufferedImage getScreenshot() throws AWTException {
 		final Robot robot = new Robot();
